@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.github.beh01lder</groupId>
+  <artifactId>selenium-exercise</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  
+  
+  <name>Selenium-Exercise</name>
+  <description>Selenium Exercise</description>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
+		<version>1.2.17</version>
+	</dependency>
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+	<dependency>
+	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <version>6.14.3</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>3.141.59</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.github.stephenc.monte/monte-screen-recorder -->
+	<dependency>
+	    <groupId>com.github.stephenc.monte</groupId>
+	    <artifactId>monte-screen-recorder</artifactId>
+	    <version>0.7.7.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>uk.co.caprica</groupId>
+	    <artifactId>vlcj</artifactId>
+	    <version>3.10.1</version>
+	</dependency>
+	<dependency>
+	    <groupId>net.java.dev.jna</groupId>
+	    <artifactId>jna</artifactId>
+	    <version>4.2.0</version>
+	</dependency>	
+    
+  </dependencies>
+</project>
